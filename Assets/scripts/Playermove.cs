@@ -9,7 +9,7 @@ public class Playermove : MonoBehaviour
     public CharacterController characterController;
 
     public float moveSpeed = 5f;
-    float ymoveSpeed;
+    float ymoveSpeed,h,v;
     void Start()
     {
         
@@ -19,8 +19,14 @@ public class Playermove : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        if(BlackMove.blackMoveOpen==false){
+            h=0f;
+            v=0f;
+        }
+        if(BlackMove.blackMoveOpen==true){
+            h = Input.GetAxis("Horizontal");
+            v = Input.GetAxis("Vertical");
+        }
 
         Vector3 moveDirection = new Vector3(h, 0, v);
         ymoveSpeed= - 4f;
@@ -28,7 +34,6 @@ public class Playermove : MonoBehaviour
         
         moveDirection.y = ymoveSpeed;
         moveDirection *= moveSpeed;
-
         characterController.Move(moveDirection * Time.deltaTime);
     }
 }
