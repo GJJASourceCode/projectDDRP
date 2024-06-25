@@ -10,11 +10,14 @@ public class Playermove : MonoBehaviour
 
     public float moveSpeed = 5f;
     float ymoveSpeed,h,v;
-    void Start()
+    /*void Awake()
     {
-        
+        StartCoroutine("cameraRot");
     }
-
+    IEnumerator cameraRot(){
+        yield return new WaitForSeconds(0.5f);
+        transform.rotation = Quaternion.Euler(-10f,-90f,0f);
+    }*/
     void Update()
     {
         Cursor.visible = false;

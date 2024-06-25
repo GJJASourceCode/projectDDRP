@@ -10,9 +10,10 @@ public class MouseMove : MonoBehaviour
     // X축의 위치
     public float rotationY;
     // Y축의 위치
-    void Start()
+    void Awake()
     {
-        
+        rotationX = 10f;
+        rotationY = -90f;
     }
 
     void Update()

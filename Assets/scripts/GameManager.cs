@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        flore = 6;
         map[0] = "normal";
+        map[1] = "gojyo";
         if (Instance == null)
         {
             Instance = this;
@@ -21,21 +23,78 @@ public class GameManager : MonoBehaviour
         }
         
     }
+    IEnumerator nextScene(){
+        yield return new WaitForSeconds(2f);
+        sceneNum = willScene;
+        Debug.Log(willScene);
+        Debug.Log(flore);
+        SceneManager.LoadScene(map[willScene]);
+
+    }
     void Update(){
         if(UpDetect.isUp){
             UpDetect.isUp=false;
             BlackMove.blackMoveOpen=false;
-            if(sceneNum==0){
+            if(sceneNum!=0){
                 if(flore!=2){
                     flore-=1;
-                    int fake = Random.Range(0,2);
-                    if(fake==1){
-                        int willScene = Random.Range(1,25);
-                    }
                 }
             }
+            else{
+                flore = 6;
+            }
+            int fake = Random.Range(0,2);
+                    if(fake==0){
+                        //willScene = Random.Range(1,25);
+                        willScene = 1;
+                    }
+                    else {
+                        willScene = 0;
+                    }
+                    StartCoroutine("nextScene");
+        }
+        if(DownDetect.isDown){
+            DownDetect.isDown=false;
+            BlackMove.blackMoveOpen=false;
+            if(flore!=2){
+                if(sceneNum!=0){
+                    flore =6;
+            }
+            else{
+                flore -=1;
+            }
+            int fake = Random.Range(0,2);
+                    if(fake==0){
+                        //willScene = Random.Range(1,25);
+                        willScene = 1;
+                    }
+                    else {
+                        willScene = 0;
+                    }
+                    StartCoroutine("nextScene");
+            }
+            else{
+                if(sceneNum!=0){
+                    flore = 6;
+                    int fake = Random.Range(0,2);
+                    if(fake==0){
+                        //willScene = Random.Range(1,25);
+                        willScene = 1;
+                    }
+                    else {
+                        willScene = 0;
+                    }
+                    StartCoroutine("nextScene");
+                }
+                else{
+                    //clear룸 이동
+                }
+                
+            }
+            
         }
     }
+    public int willScene;
     public int sceneNum;
     public int flore; 
     public string[] map = new string[25];

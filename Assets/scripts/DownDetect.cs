@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DownDetect : MonoBehaviour
+public class UpDetect : MonoBehaviour
 {
-    static public bool isDown;
+    static public bool isUp;
     void Awake()
     {
-        isDown = false;
+        isUp = false;
     }
 
     // Update is called once per frame
@@ -17,7 +17,7 @@ public class DownDetect : MonoBehaviour
     }
     void OnTriggerEnter(Collider col){
         if(col.gameObject.name== "Player"){
-            isDown = true;
+            isUp = true;
         }
     }
 }
