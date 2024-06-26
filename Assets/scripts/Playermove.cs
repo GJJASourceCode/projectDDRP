@@ -30,6 +30,12 @@ public class Playermove : MonoBehaviour
             h = Input.GetAxis("Horizontal");
             v = Input.GetAxis("Vertical");
         }
+        if(Input.GetKey(KeyCode.LeftShift)){
+            moveSpeed = 6f;
+        }
+        else{
+            moveSpeed = 4f;
+        }
 
         Vector3 moveDirection = new Vector3(h, 0, v);
         ymoveSpeed= - 4f;

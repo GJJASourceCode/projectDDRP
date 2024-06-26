@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        flore = 6;
+        Debug.Log("Awake");
         map[0] = "normal";
         map[1] = "gojyo";
         if (Instance == null)
@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
 
     }
     void Update(){
+        Debug.Log(flore);
         if(UpDetect.isUp){
             UpDetect.isUp=false;
             BlackMove.blackMoveOpen=false;
@@ -41,7 +42,7 @@ public class GameManager : MonoBehaviour
                 }
             }
             else{
-                flore = 6;
+                flore = 7;
             }
             int fake = Random.Range(0,2);
                     if(fake==0){
@@ -58,10 +59,16 @@ public class GameManager : MonoBehaviour
             BlackMove.blackMoveOpen=false;
             if(flore!=2){
                 if(sceneNum!=0){
-                    flore =6;
+                    flore =7;
             }
             else{
-                flore -=1;
+                if(flore==0){
+                    flore = 6;
+                }
+                else{
+                    flore -=1;
+                }
+                
             }
             int fake = Random.Range(0,2);
                     if(fake==0){
@@ -75,7 +82,7 @@ public class GameManager : MonoBehaviour
             }
             else{
                 if(sceneNum!=0){
-                    flore = 6;
+                    flore = 7;
                     int fake = Random.Range(0,2);
                     if(fake==0){
                         //willScene = Random.Range(1,25);
@@ -96,6 +103,6 @@ public class GameManager : MonoBehaviour
     }
     public int willScene;
     public int sceneNum;
-    public int flore; 
+    public static int flore; 
     public string[] map = new string[25];
 }
