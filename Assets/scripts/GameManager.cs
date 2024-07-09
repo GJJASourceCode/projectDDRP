@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         map[17] = "twerk";
         map[18] = "shark";
         map[19] = "source";
+        map[20] = "god";
 
 
         if (Instance == null)
