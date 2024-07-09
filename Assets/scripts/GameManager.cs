@@ -12,6 +12,26 @@ public class GameManager : MonoBehaviour
         Debug.Log("Awake");
         map[0] = "normal";
         map[1] = "gojyo";
+        map[2] = "water";
+        map[3] = "ict";
+        map[4] = "door";
+        map[5] = "uniform";
+        map[6] = "lightFlash";
+        map[7] = "lightOff";
+        map[8] = "upAndDown";
+        map[9] = "coilHead";
+        map[10] = "ullook";
+        map[11] = "samsik";
+        map[12] = "ghost";
+        map[13] = "bigHall";
+        map[14] = "fireWall";
+        map[15] = "waterZil";
+        map[16] = "banana";
+        map[17] = "twerk";
+        map[18] = "shark";
+        map[19] = "source";
+
+
         if (Instance == null)
         {
             Instance = this;
