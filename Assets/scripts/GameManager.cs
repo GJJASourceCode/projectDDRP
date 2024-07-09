@@ -64,10 +64,10 @@ public class GameManager : MonoBehaviour
             else{
                 flore = 7;
             }
-            int fake = Random.Range(0,2);
-                    if(fake==0){
+            int fake = Random.Range(0,10);
+                    if(fake>=0&&fake<=5){
                         //willScene = Random.Range(1,25);
-                        willScene = 1;
+                        willScene = Random.Range(1,20);
                     }
                     else {
                         willScene = 0;
