@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         map[3] = "ict";
         map[4] = "door";
         map[5] = "uniform";
-        map[6] = "lightFlash";
+        map[6] = "clock";
         map[7] = "lightOff";
         map[8] = "upAndDown";
         map[9] = "coilHead";
