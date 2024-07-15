@@ -38,7 +38,7 @@ IEnumerator surprise()
             }
 IEnumerator stop()
             {
-                for (int i = 0;i<=7; i++)
+                for (int i = 0;i<=20; i++)
                 {
                 
                 yield return new WaitForSeconds(2.0f);
