@@ -81,9 +81,11 @@ public class GameManager : MonoBehaviour
             if(flore!=2){
                 if(sceneNum!=0){
                     flore =7;
+                    Debug.Log("좆!");
             }
-            else{
+             else{
                 if(flore==0){
+                    Debug.Log("시발!");
                     flore = 6;
                 }
                 else{
