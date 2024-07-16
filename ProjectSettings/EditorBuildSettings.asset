@@ -6,9 +6,66 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: 8deb4a92f46542641899acc49ce2ad9d
+  - enabled: 1
+    path: Assets/Scenes/tutorial.unity
+    guid: c333a612bac28b447bcfe5d0c89483a0
+  - enabled: 1
     path: Assets/Scenes/normal.unity
     guid: 89402f9de4950c6478524ece5fcab0f0
   - enabled: 1
     path: Assets/Scenes/gojyo.unity
     guid: b631e411cdce309498fc135cba210d00
+  - enabled: 1
+    path: Assets/Scenes/waterZil.unity
+    guid: a131034329b6ac74eb52f8b1a15b83f0
+  - enabled: 1
+    path: Assets/Scenes/banana.unity
+    guid: d7b15ad6b5413274b9aac28964c6ca01
+  - enabled: 1
+    path: Assets/Scenes/clock.unity
+    guid: 0df1a9c09953d714caf57de1e885b1bf
+  - enabled: 1
+    path: Assets/Scenes/coilHead.unity
+    guid: 35046138482527946ae6ef4d75a47897
+  - enabled: 1
+    path: Assets/Scenes/door.unity
+    guid: 433c0f8ffee4b3f44905718130d58e1b
+  - enabled: 1
+    path: Assets/Scenes/fireWall.unity
+    guid: d3940ed5d800f3c47811e1352737931c
+  - enabled: 1
+    path: Assets/Scenes/ghost.unity
+    guid: 08e6a6f0ab6e29744b07a55858674472
+  - enabled: 1
+    path: Assets/Scenes/god.unity
+    guid: b0fc313ab680f1740a876f548d98a714
+  - enabled: 1
+    path: Assets/Scenes/ict.unity
+    guid: 85287d87d34f98c46aaf4135a595b458
+  - enabled: 1
+    path: Assets/Scenes/samsik.unity
+    guid: 7c8db52cad2897c4ba3f7489e0aae236
+  - enabled: 1
+    path: Assets/Scenes/shark.unity
+    guid: 33db89584b22155498805c74a4c36e96
+  - enabled: 1
+    path: Assets/Scenes/source.unity
+    guid: 36d12ae4605bbe04fb90a08b7fa83895
+  - enabled: 1
+    path: Assets/Scenes/twerk.unity
+    guid: 2d6fbdd7d3befbd419e12e52eb89940e
+  - enabled: 1
+    path: Assets/Scenes/ullook.unity
+    guid: 0f3ba35ce691e3e409981fc493d65b07
+  - enabled: 1
+    path: Assets/Scenes/upAndDown.unity
+    guid: 0d0541d9f5134cc489de73f49b3a1eef
+  - enabled: 1
+    path: Assets/Scenes/water.unity
+    guid: 05d8253fc1bccf043a861ca0c63c8c0f
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: cef2542e20c775e4f91c88a1c295024d
   m_configObjects: {}

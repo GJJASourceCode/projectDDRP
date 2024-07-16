@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class god_move : MonoBehaviour
 {
-    public GameObject sleepgod, normalgod ,smilegod, player;
+    public GameObject sleepgod, normalgod ,smilegod, player, press;
     //bool a1 = false;
     bool a1,a2,a3;
     int stack;
@@ -64,12 +64,14 @@ public class god_move : MonoBehaviour
     IEnumerator pay(){
         normalgod.SetActive(false);
         smilegod.SetActive(true);
+        press.SetActive(true);
         yield return new WaitForSeconds(3.0f);
         if(stack<9){
             DownDetect.isDown = true;
         }
         stack = 0;
         smilegod.SetActive(false);
+        press.SetActive(false);
         sleepgod.SetActive(true);
         yield return new WaitForSeconds(3.0f);
         sleepgod.SetActive(false);
@@ -95,7 +97,7 @@ public class god_move : MonoBehaviour
         }
         if(a3){
            transform.rotation = Quaternion.Euler(0f,90f-angle*Mathf.Rad2Deg,0f);
-           transform.position = new Vector3(transform.position.x + Mathf.Cos(angle)*0.1f,transform.position.y,transform.position.z + Mathf.Sin(angle)*0.1f);
+           transform.position = new Vector3(transform.position.x + Mathf.Cos(angle)*10f*Time.deltaTime,transform.position.y,transform.position.z + Mathf.Sin(angle)*10f*Time.deltaTime);
         }
         if(aaaa){
             if(Input.GetKeyDown("x")){
@@ -104,6 +106,7 @@ public class god_move : MonoBehaviour
             if(stack>=10){
                 aaaa=false;
                 smilegod.SetActive(false);
+                press.SetActive(false);
                 sleepgod.SetActive(true);
             }
         }

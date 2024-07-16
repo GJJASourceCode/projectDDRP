@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class gojyo_move : MonoBehaviour
 {
     public static int state;
-    public GameObject normalgojyo, smilegojyo, readygojyo, player, deadBody;
+    public GameObject normalgojyo, smilegojyo, readygojyo, player, deadBody,otsang;
     public Image shoot;
     //bool a1 = false;
     bool a1,a2,a3;
@@ -32,6 +32,7 @@ public class gojyo_move : MonoBehaviour
         yield return new WaitForSeconds(14f);
         readygojyo.SetActive(false);
         shoot.gameObject.SetActive(true);
+        otsang.gameObject.SetActive(false);
         yield return new WaitForSeconds(6f);
         shoot.gameObject.SetActive(false);
         state = 1;

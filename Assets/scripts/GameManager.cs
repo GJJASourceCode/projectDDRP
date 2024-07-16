@@ -10,28 +10,27 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Debug.Log("Awake");
-        map[0] = "normal";
-        map[1] = "gojyo";
+        
+        map[0] = "tutorial";
+        map[1] = "normal";
         map[2] = "water";
         map[3] = "ict";
         map[4] = "door";
-        map[5] = "uniform";
+        map[5] = "god";
         map[6] = "clock";
-        map[7] = "lightOff";
+        map[7] = "source";
         map[8] = "upAndDown";
         map[9] = "coilHead";
         map[10] = "ullook";
         map[11] = "samsik";
         map[12] = "ghost";
-        map[13] = "bigHall";
+        map[13] = "shark";
         map[14] = "fireWall";
         map[15] = "waterZil";
         map[16] = "banana";
         map[17] = "twerk";
-        map[18] = "shark";
-        map[19] = "source";
-        map[20] = "god";
-
+        map[18] = "gojyo";
+        map[19] = "end";
 
         if (Instance == null)
         {
@@ -54,10 +53,14 @@ public class GameManager : MonoBehaviour
     }
     void Update(){
         Debug.Log(flore);
+        if(buttonClick.isClick){
+            buttonClick.isClick = false;
+            SceneManager.LoadScene(map[0]);
+        }
         if(UpDetect.isUp){
             UpDetect.isUp=false;
             BlackMove.blackMoveOpen=false;
-            if(sceneNum!=0){
+            if(sceneNum!=1){
                 if(flore!=2){
                     flore-=1;
                 }
@@ -66,58 +69,67 @@ public class GameManager : MonoBehaviour
                 flore = 7;
             }
             int fake = Random.Range(0,10);
-                    if(fake>=0&&fake<=5){
-                        //willScene = Random.Range(1,25);
-                        willScene = Random.Range(1,20);
+                    if(fake>=0&&fake<=6){
+                        willScene = Random.Range(2,19);
                     }
                     else {
-                        willScene = 0;
+                        willScene = 1;
                     }
                     StartCoroutine("nextScene");
         }
         if(DownDetect.isDown){
             DownDetect.isDown=false;
             BlackMove.blackMoveOpen=false;
-            if(flore!=2){
-                if(sceneNum!=0){
+
+            if(sceneNum==0){
+                flore=7;
+                int fake = Random.Range(0,10);
+                    if(fake>=0&&fake<=6){
+                        //willScene = Random.Range(1,25);
+                        willScene = Random.Range(2,19);
+                    }
+                    else {
+                        willScene = 1;
+                    }
+                    StartCoroutine("nextScene");
+            }
+
+            else if(flore!=2){
+                if(sceneNum!=1){
                     flore =7;
-                    Debug.Log("좆!");
             }
              else{
-                if(flore==0){
-                    Debug.Log("시발!");
-                    flore = 6;
-                }
-                else{
-                    flore -=1;
-                }
+                flore -=1;
+                
                 
             }
-            int fake = Random.Range(0,2);
-                    if(fake==0){
+            int fake = Random.Range(0,10);
+                    if(fake>=0&&fake<=6){
                         //willScene = Random.Range(1,25);
-                        willScene = 1;
+                        willScene = Random.Range(2,19);
                     }
                     else {
-                        willScene = 0;
+                        willScene = 1;
                     }
                     StartCoroutine("nextScene");
             }
+
             else{
-                if(sceneNum!=0){
+                if(sceneNum!=1){
                     flore = 7;
-                    int fake = Random.Range(0,2);
-                    if(fake==0){
+                    int fake = Random.Range(0,10);
+                    if(fake>=0&&fake<=6){
                         //willScene = Random.Range(1,25);
-                        willScene = 1;
+                        willScene = Random.Range(2,19);
                     }
                     else {
-                        willScene = 0;
+                        willScene = 1;
                     }
                     StartCoroutine("nextScene");
                 }
                 else{
-                    //clear룸 이동
+                    willScene = 19;
+                    StartCoroutine("nextScene");
                 }
                 
             }
@@ -127,5 +139,5 @@ public class GameManager : MonoBehaviour
     public int willScene;
     public int sceneNum;
     public static int flore; 
-    public string[] map = new string[25];
+    public string[] map = new string[20];
 }
