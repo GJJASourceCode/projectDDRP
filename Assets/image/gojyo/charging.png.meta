@@ -1,0 +1,2763 @@
+fileFormatVersion: 2
+guid: 8442ea77a8d25d2438a2fa25ccd097ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: charging_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9223
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41dbce92480f3349bfdb7c7db58ac29
+      internalID: -953145107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 9223
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ec178596b8494e894b2acb1f7cd7e
+      internalID: -1277001393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_2
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 9223
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f268fa0c26d3b4c47a4e5edc494d13a0
+      internalID: 482028086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_3
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 9223
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7648b5a940935d14c85071dfe23d9264
+      internalID: -1577175011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_4
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 9223
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b96178ec0b47343b116564cd3d4975
+      internalID: -1874319906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8822
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72506f44b62868478c402fbbafd596e
+      internalID: 1721097287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_6
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 8822
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4402c745018dc4047ace3ac754be21f3
+      internalID: 1889448658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_7
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 8822
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c4d283fd6aac4eabd52c03574e19d
+      internalID: -822495243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_8
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 8822
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926fda79519c8fe4a99f8348a65e9c5b
+      internalID: -986498504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_9
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 8822
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e9e5fb0ac6dc3419f19555c8d93030
+      internalID: -1571764393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8421
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ec9507818e9d34a89ceaa1ded84955
+      internalID: -323188526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 8421
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9ca6a0335ae5e46848498b1a68b380
+      internalID: -2142679255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_12
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 8421
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4cfb78d829a66468c93b598a0e3fb6
+      internalID: 1681848496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_13
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 8421
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd903794de050b44a3da755d5a813b3
+      internalID: -905794248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_14
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 8421
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0b24ba7264b184a93d0dac51e24104
+      internalID: 621916508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8020
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da97d410bac29064b8b220c5f9cf9077
+      internalID: -2011448030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_16
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 8020
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effad0234b47c1147a6ab243130f0ef8
+      internalID: 1290749848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_17
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 8020
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a3c3f30dbc9248a40f598f5043fbc
+      internalID: -467892682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_18
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 8020
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549f0b88e692264a8ebc3b35b52745f
+      internalID: 1239254693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_19
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 8020
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a463b263b92b6994db70b5bb66dfcf68
+      internalID: -330589890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7619
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b15a16aa818c4eb915b6f09b57c86
+      internalID: 261824653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_21
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 7619
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184aafd55de19254488be1b918299874
+      internalID: 1945420493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_22
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 7619
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73cc01e14a9a274fb3f96664603d885
+      internalID: 688599696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_23
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 7619
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e86e7bfa9f6ab4798126fb4162673c
+      internalID: -56649879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_24
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 7619
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c7899369f1a741a8ed7ac3b14a432
+      internalID: 589925619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7218
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56565af7baece554ba2b10bfe8d8b5af
+      internalID: -753136101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_26
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 7218
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3455a300d6486d04b8be977d86bb17a9
+      internalID: -786435555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_27
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 7218
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dc122a0c56ba147b20baae797c15c0
+      internalID: -1749772195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_28
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 7218
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aff6ffce378ed428d0f64596d2c18f
+      internalID: -898759064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_29
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 7218
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fca1566cd964464a817a0df82f920fc
+      internalID: -1464650299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6817
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5bbad0a2e9c9c47a830ade0a901f3b
+      internalID: -1404379732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_31
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 6817
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b7bf4e574b0934884b25b8dd986780
+      internalID: 1427648041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_32
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 6817
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f67efb0fe489e40a235ca80786a2d0
+      internalID: -338497207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_33
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 6817
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90679490e6d1f964884e18a61f0b174c
+      internalID: -1696948326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_34
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 6817
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8acc3fb8a9fcfd439039ffd36c7f031
+      internalID: -2001757326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6416
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929a7a9997431674e97a70078e7257a2
+      internalID: 98393618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_36
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 6416
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b1b3a2d11fb74e89796f645d9e3b4
+      internalID: -363328415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_37
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 6416
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e841a6366c75cc94e9d0083594309c88
+      internalID: -1101687649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_38
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 6416
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644d47b6bf722c4f91ed40f75bc4fd8
+      internalID: -359331146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_39
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 6416
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af38a08173ae9048baa666320220899
+      internalID: 663296460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6015
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e3c5b844dd9c14a98b9f2f73152661
+      internalID: -1840338678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_41
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 6015
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a9002f280b214280acff867d9522a
+      internalID: -1342976926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_42
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 6015
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2b87e42c995ad498f7bf177b4c4388
+      internalID: -1122214472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_43
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 6015
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb54a4fd12b94ed4ea54cd7fb696c895
+      internalID: -1694109360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_44
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 6015
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff84bbf0f09a0f4ca4644dfeaa13206
+      internalID: 343858318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5614
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac165545ac854864ab120af5de51bc38
+      internalID: 1846596039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_46
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 5614
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc575b21874e554b8c95bb4bdf90643
+      internalID: -1831369879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_47
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 5614
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8964da86f9def247b08532e7b5901a9
+      internalID: -583999428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_48
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 5614
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26006842f93ca24a8a4971956363237
+      internalID: -461822572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_49
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 5614
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5909b6dae11ea4794d9b87ece9f8b0
+      internalID: -1564716429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5213
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1186889888f8b54f9ba287fd1303fd3
+      internalID: 259533236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_51
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 5213
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44913f53870a9e4ba288bcfa3c0a634
+      internalID: -1095584862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_52
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 5213
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c08075335cba3488d6fbc29dab1212
+      internalID: -50607469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_53
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 5213
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40ad3c5049818446b52559315422c27
+      internalID: 910733846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_54
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 5213
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e188fbd0dce22c4469962265b9561a25
+      internalID: -1985031138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4812
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795c7f07323c5614fbd2ba66b77976fb
+      internalID: -773020400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_56
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 4812
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbad4a3c5f8509c42aa922a2c6bfa76c
+      internalID: 1297672362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_57
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 4812
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86ab69b1fe794340a60bcdeffbe32d8
+      internalID: -1522768633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_58
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 4812
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c0fa95d3c04464cb80aa88bf4a5a93
+      internalID: 1325219403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_59
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 4812
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1a7a4613b371744a125b3f6e70f1e5
+      internalID: 1602208256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4411
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91bda98b5381034d81a0e88c862e4ad
+      internalID: 359860994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_61
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 4411
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5a21528ba860449e9ba93dd17de83
+      internalID: -874750495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_62
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 4411
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780b68bbc264fd4eabc3e428ba9c209
+      internalID: -1055853949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_63
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 4411
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf7004516a94714ea41d04c9038fb0a
+      internalID: -1858095294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_64
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 4411
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd68579e485b44247b968fdf9f37f697
+      internalID: 1752866901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4010
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb148bb09b57fa44e8636b987415a5db
+      internalID: 585980020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_66
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 4010
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f23b4f0e4f1054c9ee60993e75759c
+      internalID: -275122252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_67
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 4010
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7c91193529d2e46afc46600e764c05
+      internalID: 1420739165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_68
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 4010
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4546a7d3bc3565418c177a34971a96d
+      internalID: -1176345091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_69
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 4010
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e18d1709a781ed4cb6b02b79bcd8ec6
+      internalID: -1108208586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3609
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8147a493a47ae4bb2953f45e2f989a
+      internalID: 403264221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_71
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 3609
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518fab7d9a245c646a2f31b633a6b21b
+      internalID: -1667555499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_72
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 3609
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffefa47cf68fad4419417981f74061ba
+      internalID: 1685497894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_73
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 3609
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d297a978c2a774c99c2d473bc5a423
+      internalID: 1081451247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_74
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 3609
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d332f978318d847a4f24beb5ee6fde
+      internalID: -1431959750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3208
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a11b480901e9874a9c891fc6d4269ee
+      internalID: 1942512800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_76
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 3208
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd73564087f0f9e45bd4cfe4861e1394
+      internalID: -172114246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_77
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 3208
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f584fe03f980148a788a7f86a6fae5
+      internalID: 1240840495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_78
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 3208
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1a0246a7f4c514983eb554dbb35ba6
+      internalID: 1153999284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_79
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 3208
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3ae235068aca443bd01aa3d86f6376
+      internalID: -5282400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2807
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce244e3deb056204b82466f2e91a460c
+      internalID: -760358269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_81
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2807
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb7175ee5f7c1f4cbb66b14866d44c2
+      internalID: -915536336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_82
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2807
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe0db22d23b678448aec3a960e1f6f4
+      internalID: -223412471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_83
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2807
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20543840417df2f40ba2307ba398b09f
+      internalID: -1104232844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_84
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2807
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14655b388d72b94c888b0258f6040b0
+      internalID: -1140534139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2406
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6932bf75bf22c4444a5816317793bd5c
+      internalID: -322601290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_86
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2406
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb39d7135e98d4409380f3a6096c014
+      internalID: 2131487446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_87
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2406
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504548c5847fbc3468b42e0f9655044f
+      internalID: 1905750718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_88
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2406
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d5bf9857bc2f84d9c22a4c970654de
+      internalID: -1812156899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_89
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2406
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902fab95572576d47b25ebbae675b54c
+      internalID: 1670508837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2005
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d646cf5f020d145bfd700b696d13e3
+      internalID: -845432094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_91
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2005
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f03d7518b394304581029fb39280d56
+      internalID: 1994180486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_92
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2005
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c749347c1d8d5ba42a9608d301e99cd0
+      internalID: -841740401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_93
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2005
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb5c4a136d5f8c499188d02753fcfb3
+      internalID: -783045144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_94
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2005
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b5bf0616683224aad3f925e384bdf8
+      internalID: -2058577369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1604
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106deb44de9f2544babc1afa4ce1dc88
+      internalID: 2029369227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_96
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1604
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b609bbcefca6d814c910dad77010b848
+      internalID: -1833246965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_97
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1604
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca99a73f19a8f5f4fb375a180db70487
+      internalID: -1234822098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_98
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1604
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643aba605a72e4944ae02ca547db7efc
+      internalID: 2028536955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_99
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1604
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa71f378519df246852e3aa24179077
+      internalID: -1491019802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1203
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4e001d55378c643bc062cc078d14e0
+      internalID: 636907867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_101
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1203
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638388685cd50d84a87bf8e3d5039525
+      internalID: -1707388564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_102
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1203
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227a653b759d125408807a915164aadc
+      internalID: 1686268128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_103
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1203
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee187ef5408929c43ba17b09cae37396
+      internalID: -657457239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_104
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1203
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d6bcc2f29a4e40abc3c43bc120d91
+      internalID: 1266200250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efdc81843084fd44bc15f6dde361e69
+      internalID: -110366580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_106
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 802
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40757722e33d0a42a35fa1998e8c58f
+      internalID: 886649491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_107
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 802
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83a3353497e0804481abf153f39fbf1
+      internalID: 95990945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_108
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 802
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a84d0e900e3c474e9c273cb9f271fc8
+      internalID: 1800667883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_109
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 802
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4291c7a5a89c2cd49a03b787f7a7f675
+      internalID: 1387498588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b81ae2e2c0de7341af77b8a35fa2043
+      internalID: 234150908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_111
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 401
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced50b402dd2c9a449177ad309847d7d
+      internalID: -178753718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_112
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 401
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9e566c1fa4a064a81ff2f6713596a2
+      internalID: -1322318003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_113
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 401
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681d65f2febbd7341a1c55931cac7751
+      internalID: 216688349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_114
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 401
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1165fa3b1491846ad5833e65641d7c
+      internalID: 346097521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfb224817d1ca94bb60c6b4a2f54b45
+      internalID: -1078859996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_116
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d08937020f39d42bb8ef2e4d633e79
+      internalID: -2104411183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_117
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dca373b11a8f543a7d105abd98fd42
+      internalID: 808599166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_118
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 0
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201d9741ce959f648a5fa553be178ec3
+      internalID: -1001273547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_119
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 0
+        width: 710
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d346d8fa07696a947965a9ff1ea3fa2c
+      internalID: 1010262331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3c032ab6ed84f3240a99672c759ed4ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      charging_0: -953145107
+      charging_1: -1277001393
+      charging_10: -323188526
+      charging_100: 636907867
+      charging_101: -1707388564
+      charging_102: 1686268128
+      charging_103: -657457239
+      charging_104: 1266200250
+      charging_105: -110366580
+      charging_106: 886649491
+      charging_107: 95990945
+      charging_108: 1800667883
+      charging_109: 1387498588
+      charging_11: -2142679255
+      charging_110: 234150908
+      charging_111: -178753718
+      charging_112: -1322318003
+      charging_113: 216688349
+      charging_114: 346097521
+      charging_115: -1078859996
+      charging_116: -2104411183
+      charging_117: 808599166
+      charging_118: -1001273547
+      charging_119: 1010262331
+      charging_12: 1681848496
+      charging_13: -905794248
+      charging_14: 621916508
+      charging_15: -2011448030
+      charging_16: 1290749848
+      charging_17: -467892682
+      charging_18: 1239254693
+      charging_19: -330589890
+      charging_2: 482028086
+      charging_20: 261824653
+      charging_21: 1945420493
+      charging_22: 688599696
+      charging_23: -56649879
+      charging_24: 589925619
+      charging_25: -753136101
+      charging_26: -786435555
+      charging_27: -1749772195
+      charging_28: -898759064
+      charging_29: -1464650299
+      charging_3: -1577175011
+      charging_30: -1404379732
+      charging_31: 1427648041
+      charging_32: -338497207
+      charging_33: -1696948326
+      charging_34: -2001757326
+      charging_35: 98393618
+      charging_36: -363328415
+      charging_37: -1101687649
+      charging_38: -359331146
+      charging_39: 663296460
+      charging_4: -1874319906
+      charging_40: -1840338678
+      charging_41: -1342976926
+      charging_42: -1122214472
+      charging_43: -1694109360
+      charging_44: 343858318
+      charging_45: 1846596039
+      charging_46: -1831369879
+      charging_47: -583999428
+      charging_48: -461822572
+      charging_49: -1564716429
+      charging_5: 1721097287
+      charging_50: 259533236
+      charging_51: -1095584862
+      charging_52: -50607469
+      charging_53: 910733846
+      charging_54: -1985031138
+      charging_55: -773020400
+      charging_56: 1297672362
+      charging_57: -1522768633
+      charging_58: 1325219403
+      charging_59: 1602208256
+      charging_6: 1889448658
+      charging_60: 359860994
+      charging_61: -874750495
+      charging_62: -1055853949
+      charging_63: -1858095294
+      charging_64: 1752866901
+      charging_65: 585980020
+      charging_66: -275122252
+      charging_67: 1420739165
+      charging_68: -1176345091
+      charging_69: -1108208586
+      charging_7: -822495243
+      charging_70: 403264221
+      charging_71: -1667555499
+      charging_72: 1685497894
+      charging_73: 1081451247
+      charging_74: -1431959750
+      charging_75: 1942512800
+      charging_76: -172114246
+      charging_77: 1240840495
+      charging_78: 1153999284
+      charging_79: -5282400
+      charging_8: -986498504
+      charging_80: -760358269
+      charging_81: -915536336
+      charging_82: -223412471
+      charging_83: -1104232844
+      charging_84: -1140534139
+      charging_85: -322601290
+      charging_86: 2131487446
+      charging_87: 1905750718
+      charging_88: -1812156899
+      charging_89: 1670508837
+      charging_9: -1571764393
+      charging_90: -845432094
+      charging_91: 1994180486
+      charging_92: -841740401
+      charging_93: -783045144
+      charging_94: -2058577369
+      charging_95: 2029369227
+      charging_96: -1833246965
+      charging_97: -1234822098
+      charging_98: 2028536955
+      charging_99: -1491019802
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
